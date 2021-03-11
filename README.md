@@ -1,3 +1,8 @@
-## Decoder
+## Decoder Browser Extension
 
-Browser Extension that adds a context menu item that decodes highlighted base64 strings (even 2x, 3x, etc base64 encoded strings) and adds them right to your clipboard. 
+Adds right click context menu option that decodes selected text using Base64
+
+Features:
+- Keeps decoding string until it can't anymore (for B64x2 situations)
+- Adds result to your clipboard automatically
+- Works for multiple selections at once
