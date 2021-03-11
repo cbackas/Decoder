@@ -1,14 +1,14 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
-    node: {
-        global: false
-    },
+  node: {
+    global: false
+  },
 
-    entry: {
-        main: path.resolve(__dirname, 'src/app/main.js'),
-        background: path.resolve(__dirname, 'src/app/background.js')
-    },
+  entry: {
+    main: path.resolve(__dirname, 'src/app/main.js'),
+    background: path.resolve(__dirname, 'src/app/background.js')
+  },
 
   output: {
     path: path.resolve(__dirname, 'extension/dist'),
@@ -25,5 +25,5 @@ module.exports = {
     ]
   },
 
-  devtool: 'cheap-module-source-map'
-};
+  devtool: 'source-map'
+}
