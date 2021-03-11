@@ -30,6 +30,7 @@ function handleMessage(message) {
                 }
             });
 
+            // dont update clipboard if theres no data to put there
             if (clipboardLines.length != 0) {
                 updateClipboard(clipboardLines.join("\n"));
             }
