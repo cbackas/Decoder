@@ -30,7 +30,9 @@ function handleMessage(message) {
                 }
             });
 
-            updateClipboard(clipboardLines.join("\n"));
+            if (clipboardLines.length != 0) {
+                updateClipboard(clipboardLines.join("\n"));
+            }
     }
 }
 
