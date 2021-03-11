@@ -17,13 +17,6 @@ module.exports = {
     filename: '[name].js'
   },
 
-  resolve: {
-    extensions: [ '.js', '.json', '.scss', '.css' ],
-    alias: {
-      utils: path.resolve(__dirname, 'src/app/utils')
-    }
-  },
-
   module: {
     rules: [
       {
