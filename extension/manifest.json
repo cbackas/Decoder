@@ -1,9 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "__MSG_extName__",
-  "description": "__MSG_extDesc__",
-  "version": "1.2",
-  "default_locale": "en",
+  "name": "Decoder",
+  "description": "Base64 Decoder that adds some clipboard help",
+  "version": "1.3",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
